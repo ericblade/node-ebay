@@ -1,10 +1,13 @@
 {
     "name": "ebay"
   , "description": "Ebay API client for node"
-  , "version": "0.0.1"
-  , "author": "Tolga Tezel"
+  , "version": "1.0.0"
+  , "author": "Eric Blade"
+  , "contributors": [
+    "Tolga Tezel"
+  ]
   , "keywords": ["ebay"]
-  , "dependencies": { 
+  , "dependencies": {
 
   }
   , "devDependencies": {
@@ -14,6 +17,6 @@
   , "main": "./ebay"
   , "repository": {
         "type": "git"
-      , "url": "http://github.com/ttezel/node-ebay.git"
+      , "url": "http://github.com/ericblade/node-ebay.git"
     }
 }

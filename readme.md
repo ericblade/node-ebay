@@ -1,6 +1,11 @@
-#ebay 
+#ebay
 
-Ebay client for node. Make calls to Ebay's http API's.
+Ebay client for node. Make calls to Ebay's https API's.
+
+This is a fork of https://github.com/ttezel/node-ebay which has not seen an update in over 8 years.
+
+This fork features https support, and if it continues will probably be re-written in a more modern
+code style.
 
 #Installing
 
@@ -40,7 +45,7 @@ There are just 2 methods; `get` and `post` which make **GET** and **POST** reque
 
 ##Arguments
 
-* `service`: (String) specifies the Ebay API Service to use. 
+* `service`: (String) specifies the Ebay API Service to use.
 
   Supported services are:
 
